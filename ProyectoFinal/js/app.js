@@ -54,9 +54,7 @@ function buscar(nombre, estudiantes) {
     // TO DO: Buscar el nombre en la lista de estudiantes que se recibe por parámetros
     // Retornar el objeto del estudiante buscado
     // Nota: NO IMPORTA SI EL USUARIO ESCRIBE EL NOMBRE EN MAYÚSCULAS O MINÚSCULAS
-    /*return (estudiantes.filter(function(a){
-      a.nombre.toLowerCase() == nombre.toLowerCase();
-    }));*/
+
     for (var i in estudiantes){
       if(estudiantes[i].nombre.toLowerCase() == nombre.toLowerCase()){
         return estudiantes[i];
